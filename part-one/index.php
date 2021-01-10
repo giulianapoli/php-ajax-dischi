@@ -8,6 +8,8 @@ $json_a = json_decode($json, true);
 
 // header('Content-Type: application/json');
 
+$json_b = json_encode($json_a, true);
+
 
 ?>
 
